@@ -31,7 +31,8 @@ p,
 .card,
 .box,
 .footer,
-.navbar {
+.navbar,
+.input {
   color: var(--text-color);
 }
 
@@ -39,7 +40,8 @@ body,
 .card,
 .box,
 .footer,
-.navbar {
+.navbar,
+.input {
   background: var(--bkg-color);
 }
 
