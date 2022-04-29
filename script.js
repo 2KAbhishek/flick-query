@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  var DEBUG = true;
+  var DEBUG = false;
   var $form = $(document.forms.requestImagesForm);
   if (DEBUG) {
     console.log("$form", $form);
@@ -17,10 +17,29 @@
       .done(function (data) {
         $("#images").empty();
         $.each(data.items, function (index, item) {
+          var $img = $(
+            " <div class='card p-2'> <div class='card-image>" +
+              "<figure class='image'>" +
+              "<p class='image'>" +
+              "<img src='" +
+              item.media.m +
+              "'>" +
+              "</p></figure></div>" +
+              "<div class='card-content'> <div class='content'> <p class='title is-4'> <a href = " +
+              item.link +
+              ">" +
+              item.title +
+              "</a></p>" +
+              "</div></div></div><br>"
+          );
+
+          $("#images").append($img);
 
           if (index === 9) {
             return false;
           }
+
+          return true;
         });
       })
       .fail(function () {
