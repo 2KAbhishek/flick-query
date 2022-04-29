@@ -17,7 +17,10 @@
       .done(function (data) {
         $("#images").empty();
         $.each(data.items, function (index, item) {
-          $("#images").append($("<div>").append(item.description));
+
+          if (index === 9) {
+            return false;
+          }
         });
       })
       .fail(function () {
