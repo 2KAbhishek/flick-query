@@ -15,20 +15,22 @@
 
 <body>
 
+
+  <section class="box px-6">
+
   <form name="requestImagesForm" id="requestImagesForm" title="Request Images" method="POST">
-    <div class="field"><label for="searchTags" class="label">Search</label>
-      <div class="control">
-        <input class="input" name="searchTags" type="text" id="searchTags" title="Tags" value="Climate Change" maxlength="80" />
-      </div>
+      <div class="navbar-item control">
+        <input class="input" name="searchTags" type="text" id="searchTags" title="Tags" value="Climate Change"
+          maxlength="80" />
     </div>
 
-    <div class="field is-grouped">
-      <div class="control">
-        <button class="button is-success">Submit</button>
-        <button class="button is-info btn-toggle">Toggle Dark-Mode</button>
+      <div class="field  navbar-item">
+        <div class="control ">
+          <button class="button is-info">Submit</button>
       </div>
     </div>
   </form>
+  </section>
 
   <div id="images" class="p-6"></div>
 
