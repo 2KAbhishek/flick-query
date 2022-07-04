@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/flick-query">flick-query</a></h1>
+<h1><a href="https://2kabhishek.github.io/flick-query">Flick Query</a></h1>
 
 <a href="https://github.com/2KAbhishek/flick-query/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/flick-query?style=plastic&color=white&label=License"> </a>
@@ -23,10 +23,10 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Minimalist Flickr Frontend 🖼️🔍</h3>
 
 <figure>
-  <img src= "images/screenshot.png" alt="flick-query Demo" style="width:100%">
+  <img src= "images/screenshot.jpg" alt="flick-query Demo" style="width:100%">
   <br/>
   <figcaption>flick-query screenshot</figcaption>
 </figure>
@@ -35,23 +35,17 @@
 
 ## What is this
 
-flick-query is a web app that allows `<insert_target_audience>` to `<action/task_it_does>`.
-
-Tired of the hundreds of tools for building a website?
-
-Want to build good ol web pages with `HTML` `CSS` & `JavaScript`?
-
-You can of course do that, flick-query just makes it quicker, let your digital paintbrush loose and make something tiny.
+flick-query is a web app that allows you to search images from Flickr.
 
 ## Inspiration
 
-flick-query was inspired by `<reason/idea>`.
+Needed a lighter and cleaner alternative to flickr, found their API.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `any modern browser`
 
 ## Getting flick-query
 
@@ -68,26 +62,17 @@ Open `index.html` in your favorite browser or visit [2kabhishek.github.io/flick-
 
 ## How it was built
 
-flick-query was built using `HTML` `CSS` & `JavaScript`.
+flick-query was built using `VS Code`, `Bulma CSS`, `HTML`, `CSS` & `JavaScript`.
 
 ## Challenges faced
 
-While building flick-query the main challenges were `<issue/difficulty>`
+- Fetching image data with plain JS was tricky.
 
 ## What I learned
 
-While building flick-query I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Finish it
+- AJAX with Vanilla JS.
+- Flickr API
+- Dark mode toggle using Vanilla JS and CSS.
 
 Hit the ⭐ button if you found this useful.
 
