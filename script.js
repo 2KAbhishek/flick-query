@@ -35,11 +35,7 @@
 
           $("#images").append($img);
 
-          if (index === 9) {
-            return false;
-          }
-
-          return true;
+          return index !== 9;
         });
       })
       .fail(function () {
